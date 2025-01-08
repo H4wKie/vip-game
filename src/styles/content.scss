@@ -1,0 +1,32 @@
+.main-content {
+  position: absolute;
+  width: 80%;
+  height: 100dvh;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  user-select: none;
+  text-align: center;
+}
+
+.main-text-one,
+.main-text-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-text-two {
+  padding-block-start: 20px;
+}
+
+.main-text-one>h1,
+.main-text-two>h4 {
+  color: #E53228;
+  padding-block: 3px;
+}
